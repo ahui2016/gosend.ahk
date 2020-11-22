@@ -1,7 +1,7 @@
 #S::
 ClipSaved := clipboard  ; Convert any copied files, HTML, or other formatted text to plain text.
 ClipSaved := Trim(ClipSaved)
-Run, go-send-cli.exe -text "%ClipSaved%"
+Run, go-send-cli.exe -clip "%ClipSaved%"
 return
 
 #F::
